@@ -65,7 +65,7 @@ const createTabContent = (tabPanes, navPills) => {
             `;
             rowElement.appendChild(colElement);
         });
-        tabPane.appendChild(rowElement); // Thêm hàng cuối cùng
+        tabPane.appendChild(rowElement); 
         tabContentContainer.appendChild(tabPane);
     });
 };
